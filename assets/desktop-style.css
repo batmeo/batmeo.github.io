@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+[class*="col-"] {
+    float: left;
+}
+@media screen and (min-width: 992px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .font-paragraph {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8em;
+    }
+    .font-heading {
+        font-family: Georgia, Times, serif;
+    }
+    .font-heading-footer {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .header {
+        width: 100%;
+        height: 50px;
+        background-color: white;
+    }
+    .nav li {
+        list-style-type: none;
+        position: relative;
+        text-transform: uppercase;
+        font-family:  Helvetica, Arial, sans-serif;
+        float: left;
+        left: 70px;
+        padding: 20px 40px 20px 0px;
+    }
+    .nav li a {
+        text-decoration: none;
+        color: dimgray;
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+    .nav .right {
+        margin-left: 45%;
+        text-align: right; 
+    } 
+    .banner {
+        position: relative;
+    }
+    .banner img {
+        display: block;
+    }
+    .banner-text {
+        position: absolute;
+        top: 30%;
+        color: white;
+    }
+    .banner-text h1{
+        padding: 50px 50px 0px 70px;
+    }
+    .banner-text p {
+        padding: 20px 50px 30px 70px;
+    }
+    .banner-text hr {
+        display: none;
+    }
+    .container {
+        background-color: #ccc; 
+        position: relative; 
+        width: 100%;
+    }
+    .container h2{
+        position: relative;
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding-left: 70px;
+        padding-top: 40px;
+        color: #474747;
+    }
+    .container p {
+        position: relative;
+        padding: 20px 70px;
+        color: #474747;
+    }
+    .img {
+        padding: 0px 50px 50px 50px ;
+    }
+    .img img {
+        padding: 15px 20px;
+    }
+    .img , .footer::after {
+        content: "";
+        clear: both;
+        display: table;
+    } 
+    .footer-background {
+        background-color: rgb(219, 221, 223);
+    }
+    .footer {
+        padding: 20px 50px 50px 50px;
+    }
+    .footer-text {
+        padding: 15px 20px; 
+    }
+    .link {
+        text-decoration: none;
+        color: rgb(81, 204, 245)
+    }
+}
