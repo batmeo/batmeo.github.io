@@ -97,7 +97,7 @@
     .img img {
         padding: 15px 20px;
     }
-    .img , .footer::after {
+    .img::after , .footer::after {
         content: "";
         clear: both;
         display: table;
